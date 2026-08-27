@@ -1,0 +1,84 @@
+{
+  "case_id": "c2-d2-ai-agency-market-intelligence",
+  "channel_summary": "cannot_confirm",
+  "competitor_summary": "Competitor URL declared: https://www.leewayhertz.com/ai-development-company/; Competitor URL declared: https://quantconnect.com/institutions/custom-ai-bot-development; Competitor URL declared: https://algotrader.com/research/ai-trading-systems-and-quant-bots-2026",
+  "decision": "CHANGE",
+  "evidence_label": "cannot_confirm",
+  "geography": "Global",
+  "handoff_sha256": "c35f892e157d87558f37581b4389a5c7a850f0bb2b209aec7ecde0334b5eba2c",
+  "limitations": [
+    "ZEBULUN produces evidence packs only; EZRA generates content.",
+    "No marketing claims are authorized without an authorized pilot.",
+    "All claims are capped at partial until independently verified by ERA."
+  ],
+  "positioning_summary": "cannot_confirm",
+  "pricing_summary": "cannot_confirm",
+  "product_name": "C2&D2 (Creating Concepts and Developing Designs)",
+  "schema": "zebulun-ezra-handoff-v1",
+  "supported_claims": [
+    {
+      "claim_id": "zcl-6c56f5e4f4d2d837",
+      "evidence_label": "partial",
+      "statement": "Competitor URL declared: https://www.leewayhertz.com/ai-development-company/"
+    },
+    {
+      "claim_id": "zcl-10f7431b691c5437",
+      "evidence_label": "partial",
+      "statement": "Competitor URL declared: https://quantconnect.com/institutions/custom-ai-bot-development"
+    },
+    {
+      "claim_id": "zcl-77694e5b1bb1b94d",
+      "evidence_label": "partial",
+      "statement": "Competitor URL declared: https://algotrader.com/research/ai-trading-systems-and-quant-bots-2026"
+    },
+    {
+      "claim_id": "zcl-50d95233c12dc0e5",
+      "evidence_label": "partial",
+      "statement": "Source src-market-ai-agency-saas contains buyer-role indicator: buyer."
+    },
+    {
+      "claim_id": "zcl-bc9146ec864e2218",
+      "evidence_label": "partial",
+      "statement": "Source src-competitor-leewayhertz contains buyer-role indicator: buyer."
+    },
+    {
+      "claim_id": "zcl-36cf625048fc266c",
+      "evidence_label": "partial",
+      "statement": "Source src-market-ai-agency-saas lists a paid offer at $8,000."
+    },
+    {
+      "claim_id": "zcl-a586aa8578ab0348",
+      "evidence_label": "partial",
+      "statement": "Source src-market-ai-trading-bots lists a paid offer at $5,000."
+    },
+    {
+      "claim_id": "zcl-25de8a9eea2dfbcb",
+      "evidence_label": "partial",
+      "statement": "Source src-competitor-leewayhertz lists a paid offer at $25,000."
+    },
+    {
+      "claim_id": "zcl-0b212b748894e4ee",
+      "evidence_label": "partial",
+      "statement": "Source src-market-ai-agency-saas describes a problem indicator: pain."
+    }
+  ],
+  "target_audience": "Startup founders, enterprise product leaders, fintech operators, and traders seeking bespoke AI SaaS applications and high-performance algorithmic trading bots.",
+  "unsupported_topics": [
+    "product-market fit",
+    "customer willingness to pay",
+    "guaranteed search rankings",
+    "revenue projection",
+    "commercial success",
+    "competitor",
+    "alternative",
+    "buyer",
+    "customer",
+    "pricing",
+    "positioning",
+    "search_intent",
+    "seo",
+    "channel",
+    "friction"
+  ],
+  "value_proposition": "Turnkey AI product foundry creating concepts and developing designs: building custom AI SaaS applications, deterministic algorithmic trading bots, autonomous agent workflows, and bespoke machine learning systems with verified performance and zero vendor lock-in."
+}

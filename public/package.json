@@ -1,0 +1,15 @@
+{
+  "name": "c2-d2-ai-agency",
+  "version": "2.0.0",
+  "description": "C² & D² — Creating Concepts & Developing Designs. AI SaaS & Quantitative Trading Systems.",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "node serve.js",
+    "build": "node -e \"console.log('Build ready')\""
+  },
+  "keywords": ["ai-agency", "ai-saas", "trading-bots", "agent-swarms"],
+  "author": "C² & D²",
+  "license": "UNLICENSED",
+  "private": true
+}

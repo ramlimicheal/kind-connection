@@ -1,0 +1,15 @@
+{
+  "audit_execution_label": "validated",
+  "audit_sha256": "e067aab482beab58830e381bedbc6412b633b7e427ab83fa578382c4b3cb32a1",
+  "blockers": [],
+  "boundary": "A passing audit proves structural-envelope, evidence-reference and rendered-layout compliance. It does not prove rankings, conversion, revenue, product-market fit or commercial success.",
+  "content_evidence_label": "partial",
+  "learning_sha256": "4fca2c119e26a5e262d1df880e888978f76d6d8dfdfb4f04f513e842a1a58591",
+  "measurement_count_expected": 20769,
+  "measurement_count_received": 20769,
+  "release_ready": true,
+  "schema": "legend-era-ezra-website-audit-v1",
+  "slot_count_expected": 6923,
+  "slot_count_received": 6923,
+  "website_learning_id": "ezra-website:40c0b0ee07b962d7445853b0"
+}
