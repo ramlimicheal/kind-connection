@@ -1,0 +1,550 @@
+{
+  "schema": "legend-era-adre-verification-report-v1",
+  "target_directory": "C:\\Users\\The Legend Maker\\Desktop\\Work X\\C2D2\\kind-connection\\public",
+  "timestamp": "2026-08-28T13:20:02Z",
+  "overall_verdict": "failed",
+  "evidence_label": "cannot_confirm",
+  "has_artifact_suite": {
+    "manifest_self_hash_valid": true,
+    "manifest_sha256": "3d49f80ec17c8e1d84b557a16385a6376baa5351025f50830616a55fcc775dcb",
+    "genome_self_hash_valid": true,
+    "genome_sha256": "8b5564b559c309e3670572520e4c4296003061f7ec9c11822232f1c906cad601",
+    "structure_self_hash_valid": true,
+    "structure_sha256": "1ddcf57992f9635e84e8378ed4cbe6a7077ea714d36bdc7b1993b7b2bf93b8d4",
+    "structure_genome_bound": true,
+    "total_files_in_manifest": 291,
+    "files_verified_ok": 214,
+    "missing_files": [],
+    "mismatched_files": [
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/0UKAUNKlMeYIbzMOi_LiYZH42MNYXabR0YAqQGsEjIM.DK-wfRwD.mjs",
+        "expected": "f6acc5337a47c3c18418d16b379f380108e004ef91deae1f04fa481ddbfa2686",
+        "actual": "85f0473238f8d52dcade6131a857e052b8eaaab253f12b198676cdbd6aa383bf"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/2Jsqh7SLXxPG1basYaZHd3VEvpKCbPMSDEZhSb_Fros.-sORsYwd.mjs",
+        "expected": "155b4faa285e2709ca9bdc2a0a8fe0af58d8e5319939f67dfa514b4d6dad8ac8",
+        "actual": "c1eab59e7ca5d553dd4f4d69ed5eb9c25ba3dcca07fdb8e92655c75c9575b5cc"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/8InAkPyIZCN-wlrQo5vS2J6ccL4sHzN84XNzKrvbt00.Dda8AUWc.mjs",
+        "expected": "b0fcf105a2e7f1d63b9063ac604ce0d3fabe427cebc5a7591925a33193bcb0f0",
+        "actual": "1a908ce5dc1bcde88f8283bcda2fb86461685ee67af185d5873ff6c711c61aae"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/9LVJxL11m-wbZpEpXzXWduZZHvA3yahgTUl2YZ66ei4.BlZJjLdG.mjs",
+        "expected": "0d8f4511b9042313518cc3f072a38482dd7323b960fdb0d0b94cb65a0add84cf",
+        "actual": "db7d976034e888f49c1f81cd9dae4bb9abcc6453bc9d39ad7cd3af88da43bbd1"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/A2bF0EhQM.B7vjGS7G.mjs",
+        "expected": "b78e61f1583558462401d840236e44cce4afd0ce375588a5e3ae92429b6df4d7",
+        "actual": "31439fc39f5ec05e402e5c377df839610e0986ce3ef11850a83b8979525164fb"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/AJ7LeUNfgLmp4D4-laVv4awWb_QUAYBLtHiTeOhsVK8.poFChfGd.mjs",
+        "expected": "88f74763ca32365ca29cf15ec6f976f0b528b0da23a2bc65726c668ae8dda3a1",
+        "actual": "01f797d441b148eabee7055e0325059b78168d449634f8a41877e7c6b1b1299c"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/BG1culA6Z75zrps-GWrnepKC8g3L_33W-YHaV9a4Rtk.D5l-BewE.mjs",
+        "expected": "a4e29df312d3e361e5b33222772dab36b98f7be33fd149081f70d6e10a364b8b",
+        "actual": "8c47a61dbc1ea35c97d8b4b4d195e4cd6b2689d3a9392239f7e6584f41474197"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/Bgw110PzH.B8XRReFx.mjs",
+        "expected": "87004b79b3340b0c439d936a7bc11e79e2e7bc24789bd9f0d74a8e817d23fa24",
+        "actual": "b5eb78af142fe0b8cbf998a31b7dd404cdeabd7e05e31f01f9f6ba81f25bd436"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/Dg8HiOu9b.W1a0stVi.mjs",
+        "expected": "206f0bc47dda5428896299da8f6791a511647e758257d369aa02e2145ff4a8a9",
+        "actual": "60d4f36bdd8a0ff193dec3ce4b49b71c3903bb40d32cdf961d6109264733604b"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/JuGwIPCp945K38rKmQ85H902ADMEGen6c1XHgP4b-8E.Bg304JZ3.mjs",
+        "expected": "9dfb7df83812dcbaa652e2db63d33284b89a4dd39ac13c7f0af7f6e7393813e4",
+        "actual": "a4638cf29c0ba30e8dc4b945ceb7492544e5ad9b196170f95148c3b498b5b79b"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/KtpY8Q4Bak-pgk3M82ccUnygOJaCAujN_B5Rhk0uxxk.BnYsk2u2.mjs",
+        "expected": "102f64cbdc1496a8198bcead986652271b2987d2ebdd52c2907d5334fd543fb2",
+        "actual": "3042ad4fcc73d30e1fe97ea66e821d4fce6ad6194c5abd2e207b3abd5f34f64b"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/M7NXvJp6L.J3Aa_KSH.mjs",
+        "expected": "bd404151607843b8eaa211f4e658f394b9c682dce9488cba15501f6f57dcb639",
+        "actual": "b9d7c79e34bddc813048128d5d59b1f1e609fcd41cccbedac2f84792693ee6a5"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/ME3d24LoTHt394xmo98KkjpJH91T2GYGFbAVOGSBlK4.B_5v9Qs4.mjs",
+        "expected": "b454ec606b3a5cbdbf5093c601a3977ecbc79331302a680795df68d71b676818",
+        "actual": "7c96e038384980c92b929905832572f7dbafb7e6b757b603b3869be9e6812688"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/MPcktcoGG.BQVFwSpB.mjs",
+        "expected": "d17fdea4d1049ffa3ba8a37faf070e474cb660c5121c9c1c3717355755f43796",
+        "actual": "dfb5d222b4554f8855c393ce43a95b8068e4d9aa5633bad42ed778ae7afb37eb"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/OG3DM5mSkLHqp8ebSCbb51Wlf5c0zXTGL6kvM0MX--I.DbwCPSvm.mjs",
+        "expected": "470d3b2e075d5b11b76b48f05f061163f28dc92059f4eb290681b751384be9a3",
+        "actual": "1fca663742de7880dd3f0aa05bcd589a3bb29157d9affd52f78e72b0a7464270"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/PixelImageReveal_Prod.vMSSve-X.mjs",
+        "expected": "29da54ec2fbe1ea37d70e044a5940c3eb2b638ecf351e327a3f7175cc2cd56fb",
+        "actual": "32794937d9c99a97b750b1bddb04df3af42e3416b4ca5ab737cb9735a0d17540"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/Q_h4f91RBHcQl4tBn7_tuaJvdh1QA7DSw848LOBe6l8.Aan_zB17.mjs",
+        "expected": "f2aeca1213ed9c6cc83f889d89524ce92610a646fc6772b0598ccf35ba48df41",
+        "actual": "f8aa15fbf8740e39c666550fdcb2a05b57d45290540decc3bb4db6b6ed03a5c3"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/R3edlY7K79RceQIHyhX9nL7CH8fR8dH2Xqb5pILjoI8.C3jodx-j.mjs",
+        "expected": "d2b2f4d1b80236c83675579daed6fba7a2510bcd52e3355ef2738ad7a6e131ac",
+        "actual": "d0e821ad80af16a355fca53d766fc71ed0f689543e7cd4cb27b181e99c3e34a6"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/SdnM5BWYS.BfcFey7B.mjs",
+        "expected": "7f9e57cebd2c58323a3ec102d85c73c2c3ac4b5fe879f409a83919610830e2b0",
+        "actual": "83221e84102fcb1cf6ba9445f4622ac7b2a9146ec1e5be2211b1e4e518ba0657"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/VUyELEM4e.CROt__jf.mjs",
+        "expected": "ddc7ccafe94ce39fdb62587c6bbbe9370cbb05a7ee994a6cebc498a97c641dbf",
+        "actual": "61391a5c12bf401dd906be7a51113cc966441ae47ad3146679682709d870b973"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/YaLdtYE2RmDH5hCd0iI9BeDcPW69IFFi6VMGuWoernQ.BGh1fn0B.mjs",
+        "expected": "a53dc73d5e22c4df7492393381572d2373214b8185ee131c737f5d00eee23c27",
+        "actual": "791bc296608bfbb1ea628d59938214b437750e8167672dfcf6cffce764f9db2d"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/b2zks4R-tAsEl9fexU74zI67owYWouoIxJh5KixKTNY.Ix67Hdah.mjs",
+        "expected": "62e3297bd52380867bf684b34cadc428b78bdd830f16159a2c554da01042310c",
+        "actual": "56a732f1e02d66880e78ce80c5fd9cce0f4d81b0f037641b092a8c41de653d9a"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/cvQ56GlvUsVykdTIIum0tvAraqNE38N2cFDifewWuss.YFRLUw_p.mjs",
+        "expected": "7c53943bdaba501c5ffbb90afab5270c0c539678a02102cfe79c65121c46ea3a",
+        "actual": "311d73b088654c12ea4d1e63f08686eb8e501baad33ed71adaa4ecaeaf9280c8"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/dtE5L3BZ-IbjjFune-NEALbWE8mq9L-TOCzqyv5T-wQ.GMF45RWV.mjs",
+        "expected": "60c06b03992d4ebe16edb825f8aece49fbe21f3ea3759af2030bc16628bfcc26",
+        "actual": "c95738d92e987120b018e199de1948b1520180ba9c6526e7289d4255e69d3ee5"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/fSw2lwEl5JwMckBIX0bRs5Q-Aj-nddes3gPLHOFfdKY.BItY72tP.mjs",
+        "expected": "612179e2754fe75b970c11a36f7d5e676693b35d6348c007864febd37cf2d4d9",
+        "actual": "817fad5cf3764f6eb9b1ccdec27e728aedfde70fe263849fc00b30865274d301"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/framer.PN7q3ktN.mjs",
+        "expected": "9a089708f680c3a3d335da25ae0c3b67c8ab9e64eaab3067a9c504c27f6c14b2",
+        "actual": "b47a1abc19dab59285b53d30cafa36b890bfb1f4fae1ebd0229006e596644f5f"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/h4YmnPXHsuq7RP3ZJ5zVTbojGoD_sVUtZOhrJvadhWU.DnrjW-3t.mjs",
+        "expected": "6ef49b9a0c5759cdf39702ac50c8cf780c17c0a89765c4e20ce9e53d48f11be6",
+        "actual": "33e43bf403d000e66c3ddc4f393beb13806e6d91af905942f17a8230f65c2094"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/hhNlGXhnX-kyFv9m4bsjPIEcKQoWTp_CNn642H8Ap08.BEnGkMcp.mjs",
+        "expected": "fe035e402cfc1268805207e63a30632c7f9ac3ba4ae08330d06cea7cf2bced83",
+        "actual": "e2e319fdda14fc83120c41580c6a1d65b84bc0a1c169a6a630391cbb5ad3d6df"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/jvnSqcpz_nojf4-Y-3ot7_0yMh8bNtaCCgCtEMDc4as.QMnzF-gs.mjs",
+        "expected": "37f3d98ba0b38176074b7d57e879dd0f7b52a355a6a3649b19bdb9e551cc3935",
+        "actual": "ac4e7798b60f8e1a98baf66a950f0d6c221d5c2a7f2428dd7d988da9bbbc669f"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/lpkqfnE23D8P3KiAIYSPCicM8_w6qf6FtK_deuhAyl4.DuJEtH0F.mjs",
+        "expected": "a5f993fb05ba0080f4d9f8838346d8112d38160de3f2c192fa7ab032d95132c9",
+        "actual": "12b1cb2afaa34b1275ac22587113953a9c9274934b5771171c27588aa6ce8edd"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/mJ_GbtRJXBLWQj2whCBfBWObiLGqLuHloc2KT9NndyM.4Vf31kPV.mjs",
+        "expected": "30dd5c9fdeffa188c4e0c6bc2d8084b641bf1c8c218df69e69e5b1da0d8a2097",
+        "actual": "9cf6ed54bdf7416fa4472211f6f9e74cf31a0830fc3601b08dca358ecd422847"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/mOb-ix3nrOozJNLv2Jz-E_6rEKL0ip8dvkV20K0YUUU.Csqmld-1.mjs",
+        "expected": "d2a6beea4366b630a06c5e079c340937c9c2795eae22cae083dc83e608118986",
+        "actual": "83c8305de9b2594e53cd96971cf0c76e9003782ac67b75bc39dede06a75d951d"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/neUuSGGKvtFe3LDfQHK79VQXmTrZ897STsDBJiICYp0.DaCeXxJU.mjs",
+        "expected": "5ad21c1c552fa32be6f27a63ba7ff09d0da560674ff715bc6f59f4fe6b99d8c9",
+        "actual": "7257185998f1cf433da123c0f756d771b6888a41a875b99c6529534096705b6f"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/oiCIsIhSbXuvZxnosNvwJNMAA9pCdNHt5p8TUCpkV78.CQuibWKQ.mjs",
+        "expected": "193cd4d7c2ed5200c9f9766e9f0c78730b004edd2854d4b02029010c5b29b3e0",
+        "actual": "4d231a2d1c6014ceb4927d1bbf8fabcc29d3fe27dc8776ea2a4eb39b8a2d06f3"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/script_main.DJnuYa-N.mjs",
+        "expected": "a2f396e2130eade3446e7b3c432d1d8aa75cce6a8da7d24a6eb1a6593b70dba2",
+        "actual": "b868aa1cf3e97abaa9c7cc204aab70541098279b08de1e82ea8b2c5ab05fb3d4"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/shared-lib.B4rqcPCt.mjs",
+        "expected": "0f863ec38a695c7ccbd1371671f31f60c099db6f425299e460ffce8228fe5917",
+        "actual": "7959212905bc1baa8a8d5110af4accd97a4bf7ebcd406cc8d3fbba510668378e"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/wMxz964tG.CElX71wH.mjs",
+        "expected": "562c7376fbb97b166af3ed574baac8fb10275880a8eac54ffc50afdde545e201",
+        "actual": "42226e1cc5af408de2b464e368d7388a0d0f95386d8a9a37798e729891c3c3d7"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/y4LEYw_jFta4t_zBUMSAdO07TMe9aulM-q_V0_NyaWg.D-cDSv-p.mjs",
+        "expected": "233c6800ebf3adbe185d53e3b7711e2630d026b296ac452ee2911922f6b5fe83",
+        "actual": "33a200044715aa5ca1bdcc83a0b1fe785270507600cf3aada78470e09c6ccd78"
+      },
+      {
+        "path": "_external/framerusercontent.com/sites/5B9ALzFsihOWUoyRS9RCJ3/yPbasmBme.nutlAY1V.mjs",
+        "expected": "a7c9b15523f5a47c6b763db7530dc8022527d0ead4a1884d9dfaa074207c4957",
+        "actual": "216a620adb133537786cfb70928f642b749a2413e6b3483fccbb1d2b74e9337d"
+      },
+      {
+        "path": "about/index.html",
+        "expected": "e614290e78a6ae1d514743d0c8aaa205f6154ae54b090759a465596ffdba4a73",
+        "actual": "398c33aa00f0ca3c4c9612791bb29080ada5dc0457e392caf7078007af9d3d70"
+      },
+      {
+        "path": "blog/building-ai-workflows-that-scale/index.html",
+        "expected": "3632e8c73946760ff5ce3bebbeae87fcb7f989bc4e5175496450a001ca8a6153",
+        "actual": "5ec3a7f0772760690c1266f0ed5e0dbc3366f2e8797f9f5b3f44c885cab66378"
+      },
+      {
+        "path": "blog/connecting-ai-to-real-products/index.html",
+        "expected": "a18ab870a3fd157e88b0a5dddc2ea8604d475886390d67b0ee655896fead020c",
+        "actual": "93e1ccbf5a9ff890bb05908842a9ca35f3d17946562bfbda53a0f8eb41ee9ba9"
+      },
+      {
+        "path": "blog/designing-ai-systems-not-just-features/index.html",
+        "expected": "55edffdb52e760947603f50603597ec853313db014de0e6dc2724516f6a337da",
+        "actual": "1ca47300063b884e2462bdfeeb585c7478f3c99f9638fa476530bc17be18b693"
+      },
+      {
+        "path": "blog/designing-ai-workflows-that-actually-work/index.html",
+        "expected": "a1bbe39bc004bf47876cc52e521eedaed0f079ac98be9bd386c31766bc0b99a1",
+        "actual": "932a8436e079bfdc50d5b5e349eaf40a858de6939d8fb6228846437856965416"
+      },
+      {
+        "path": "blog/from-manual-tasks-to-intelligent-workflows/index.html",
+        "expected": "930370478d01fe59a9565d87ef49b400f75b27c6404dcfe5adb16ddad3456a69",
+        "actual": "c46947f41554f611e85ead276877fd8f71814b869499d226d636ac6afab2a710"
+      },
+      {
+        "path": "blog/from-prompt-to-product-making-ai-useful/index.html",
+        "expected": "e95af44173f4058c86bae3bfd66f161f689a7c3135253b3d00be82b3248116cd",
+        "actual": "02eade6935c59348858bafdd9a8f233b1bc04b9145a5e4c57f55e1a16f8a5be3"
+      },
+      {
+        "path": "blog/from-raw-data-to-actionable-results/index.html",
+        "expected": "2d09a6817871423ce499e98a637b0ada645b2140b10653300aae68e6fc454a09",
+        "actual": "32717c4a3e3d91686e2538b1661a808ec825522057fd40c9470bf41455e636de"
+      },
+      {
+        "path": "blog/how-to-structure-inputs-for-better-outputs/index.html",
+        "expected": "b52081d9967032220f8b46415f5fe1801fe85bd9c6e5c7c77f5d904787caf130",
+        "actual": "843475a2c4f99d95d08ca2ab2e660bc9391a80f2fd686faf503d717c13c79f3f"
+      },
+      {
+        "path": "blog/index.html",
+        "expected": "9a86d9c44883be8c9fa460616b8ba1d173405ccb513b12facbf3c4cc87c87bc8",
+        "actual": "04979e9dbbfe4d2cb92aaaf70c7ad4c9d2171e78974bb37009e2e2d9536aed1b"
+      },
+      {
+        "path": "blog/integrating-ai-without-breaking-your-stack/index.html",
+        "expected": "06fc4efd4f872ce837bd95f2dd821e6606c1874d43773d3d5a0ac4de83583f2c",
+        "actual": "2ff3619ad8bda8b02cbfc98d7b82ac57b5d23c9c30f201ef6d19f418f0facf9d"
+      },
+      {
+        "path": "blog/why-most-ai-outputs-are-hard-to-use/index.html",
+        "expected": "dff4babd50bb0cfcc251f28d6934c8be6b275a7edc69ec9845226e42947734f6",
+        "actual": "0069edf6d8633b9bc7ee4f65feb01561d53102986d550162c2a5ae56efac5d34"
+      },
+      {
+        "path": "careers/ai-product-engineer/index.html",
+        "expected": "2acac86789199ee494f491050d06e32d01e3527ace5178a93dcc0c8c0b9b3dff",
+        "actual": "d8a5b5a669cf76bec172415ca0410e1307796f6b62371dfef1befd25510b3a31"
+      },
+      {
+        "path": "careers/ai-workflow-engineer/index.html",
+        "expected": "6ad0c2dadd348ee4a8126d9cd3f89cff613f42d760af8fea0bbebd5f26a7708c",
+        "actual": "4e7e2b74940e4730abcb08a212ec79407109dc5c045a2af3be4335fdeca0a613"
+      },
+      {
+        "path": "careers/index.html",
+        "expected": "45e5e07160e4535ffba2444fc4fb5e8eb9410bb324860f9d725d34cd5a14633f",
+        "actual": "2ce66af7efa348da07c165566db640256ef59155424572e2de4665549bbe7961"
+      },
+      {
+        "path": "careers/machine-learning-engineer/index.html",
+        "expected": "f7e4c7e4e3581b2c3a557fd5112078b9708c03b9dec36348b04344bf5b49b881",
+        "actual": "23d6c9e8f48f672c8f3698f013defdc9576ee3b5f4e90683cb5d7ca8e9320511"
+      },
+      {
+        "path": "careers/product-designer-ai-systems/index.html",
+        "expected": "59d80c6676ca21f77b9690431af558874661f18480f0eb3b961e68acac0d1b20",
+        "actual": "bff8a38b0d0c32c4008e7c57b1d71fab8831ab725b33edc09f7a79cfffb10037"
+      },
+      {
+        "path": "changelog/index.html",
+        "expected": "80567a190e32116c98324674759917002e0abf637d40a03028a11ebecf8e46ee",
+        "actual": "2fb58b1b482656bbb69762743f92e5557029c08fddb35e5081b57b45f3e0b58f"
+      },
+      {
+        "path": "contact/index.html",
+        "expected": "fe22d20d699f4a0d8b944a8d3441677ba51c124dd3755112efac165400e4cd10",
+        "actual": "02dd479f7e4b998ccbafefd87e7b9f7c169e5bdd12488a245b13d8c3562429ad"
+      },
+      {
+        "path": "docs/ai-processing/index.html",
+        "expected": "48daaa7c3ca578279801d828811c97cb2b7ef28cd2fa97eb5451cab450ac28a1",
+        "actual": "c39dd4b36d6c6398ca763bce1154f87c6bbe5bd23428728fadcdc7831c9edae1"
+      },
+      {
+        "path": "docs/api-overview/index.html",
+        "expected": "4c79fa09b5f47520cb8ffe75ea7bb168655388d9c536f77e7d2f1486d91b0112",
+        "actual": "d32001eb40abe56c347f5a00ad2d2b04c16c370955e4919aafa5ef7c535afd9f"
+      },
+      {
+        "path": "docs/connecting/index.html",
+        "expected": "5b2727000f08c5532bb46a1d02d2b9ccd8a1607ee8b1e3fa9bf8722cabda38bf",
+        "actual": "03b11525264426f358788164f8aee0cde918543f188fa8349d7bc9c10b17b9fc"
+      },
+      {
+        "path": "docs/custom-workflows/index.html",
+        "expected": "6cfcdaba92d7d148052d3acab02df2e16c1ffabac38144dae002dc4531ab6bcf",
+        "actual": "7ebfb1180dd02531bfe6061f8d5caf88c563fe11f36682bd682c078870ed22a2"
+      },
+      {
+        "path": "docs/first-workflow/index.html",
+        "expected": "2eae5e6aefa8210b95d4b37825d0bebdfbfa6ffee1ba17ff944003573078e694",
+        "actual": "a61e3ff3b6acf4f87af10bfd5164176a614b2339f5064c3905d958500d883ed2"
+      },
+      {
+        "path": "docs/index.html",
+        "expected": "95bd3807a35584d4ff6e0f505be7e71d198b0023174b80876df8345db1af1c4e",
+        "actual": "b2f2a3666aa31b82b2797300fd0230da8bb7a289f8a9328c3d9a6736ce9e3422"
+      },
+      {
+        "path": "docs/inputs-context/index.html",
+        "expected": "ea60dec46b0b0725b10d396112167625961292a70fd5c9643907d25b98d2c6d8",
+        "actual": "72cc80690d6d55e75dd8bed08f66e3d79c677b824c7b4f8052145a818b477185"
+      },
+      {
+        "path": "docs/installation/index.html",
+        "expected": "a847a0780452767a3998c65ac667c06a00b5a3c8f73da106eacc66d721aa29d2",
+        "actual": "1202d0f5f5c61649531ff02fbea5794a6fd672da658f0d00abeac30f27b0a6d8"
+      },
+      {
+        "path": "docs/introduction/index.html",
+        "expected": "788516423175eadba2d64ec25e02934fb8421d956c6d64adac33f47cf849267e",
+        "actual": "a98c8d44c51a755eedb071987479c1b1c3ca052c665eb402793c9dd4a49f0456"
+      },
+      {
+        "path": "docs/optimization/index.html",
+        "expected": "597f7cfba4009a115fc84ea79e90d991db95162d61100a25e441c760c8a8050f",
+        "actual": "b92f5a11c4375b7d24e6a1bdfa1e59fd070c8b6f656052bf9f18f025c4bae628"
+      },
+      {
+        "path": "docs/outputs-results/index.html",
+        "expected": "892e9b52b9f4885fb8a92acbe47785d78095cc8c61766957619a247b3ff34ada",
+        "actual": "8d6d6a8122765a19a1be5dfb0a8cd0fd2bff5f36198da86f14d1de6aac884eb5"
+      },
+      {
+        "path": "docs/scaling-performance/index.html",
+        "expected": "a288b93aed24095060c5d0f85740f823598edaa366e890b7136edb2e00d0f55d",
+        "actual": "b087fece781d83b76c1fd0d843656478467db6fc189d7891c09d046d1d114977"
+      },
+      {
+        "path": "docs/sdks-usage/index.html",
+        "expected": "87ded62bfeded04d07c43e34c7913eb473519981c8eef949c8facee556299e68",
+        "actual": "4b7c6eb2cc9aa742b79e3e5c6c1debe121f39f6e68b83af735adb6272b57dbca"
+      },
+      {
+        "path": "index.html",
+        "expected": "18ca87ec4154d92c6f45bb4b7bc5047318236e1ebdf41fe09cbbb7c71d216a2a",
+        "actual": "a35d5510744d8fe26e4bf070b749102d702d4b846b72205c8be0591213fe2dd6"
+      },
+      {
+        "path": "pricing/index.html",
+        "expected": "474ef13be864cfc5a8374ff41ad43775346aab94f4f54a58ba6ffa2390cded03",
+        "actual": "2417d40eb60521927a36645c0f81a26750f943ecb9c48eab75cba31f6af534e9"
+      },
+      {
+        "path": "privacy-policy/index.html",
+        "expected": "b73f481c04e307a2505c8c89bbed9bc25c9efe92b0b76a70e76b32071e9fe93c",
+        "actual": "67cc03578c1cb34e89071815c0f5fae921289f8e329ff209a9e4b4053b261f1d"
+      },
+      {
+        "path": "serve.js",
+        "expected": "6f39cd21654becd0339b359ca0daa84364763576aaf61b2bfeb0dbfe07e20886",
+        "actual": "632b0a2c3fc20c7eb2e69abd34cc3e52402a320ce0c5093ca38dd2da61bad17b"
+      },
+      {
+        "path": "terms-of-service/index.html",
+        "expected": "bf7976215802fb6d51b90d374aebbce2c53d644ac51444541d63f4cf5838c51b",
+        "actual": "2d63acf82c43a254023b0f967fbbddfc8a61f0a3cf085ee9b3e640140af2669e"
+      },
+      {
+        "path": "waitlist/index.html",
+        "expected": "698f1a13a2be56c17d09b377d84c30a2c44a6ab2c687912f628db7215a175c43",
+        "actual": "f1c82651f5115da5ed4672f268c8635a7576a2f8e0690973df398cce361cadc9"
+      }
+    ],
+    "verdict": "failed"
+  },
+  "dehydrated_static_audit": {
+    "html_file_count": 50,
+    "csp_enforced_count": 50,
+    "all_csp_enforced": true,
+    "all_leashes_stripped": true,
+    "all_forms_neutralized": true,
+    "total_headings": 326,
+    "total_paragraphs": 5958,
+    "verdict": "validated"
+  },
+  "real_hydrated_runtime_audit": {
+    "server_port": 8092,
+    "routes_tested_count": 50,
+    "all_routes_http_200": true,
+    "range_byte_slicing_supported": true,
+    "chrome_available": true,
+    "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "chrome_hydrated_routes_tested": 6,
+    "chrome_hydration_passed": true,
+    "chrome_details": [
+      {
+        "route": "/",
+        "hydrated_dom_bytes": 1364527,
+        "headings_rendered": 26,
+        "paragraphs_rendered": 454,
+        "has_fatal_error": false,
+        "exit_code": 0
+      },
+      {
+        "route": "/about",
+        "hydrated_dom_bytes": 746603,
+        "headings_rendered": 7,
+        "paragraphs_rendered": 126,
+        "has_fatal_error": false,
+        "exit_code": 0
+      },
+      {
+        "route": "/pricing",
+        "hydrated_dom_bytes": 1004726,
+        "headings_rendered": 10,
+        "paragraphs_rendered": 316,
+        "has_fatal_error": false,
+        "exit_code": 0
+      },
+      {
+        "route": "/contact",
+        "hydrated_dom_bytes": 682875,
+        "headings_rendered": 3,
+        "paragraphs_rendered": 84,
+        "has_fatal_error": false,
+        "exit_code": 0
+      },
+      {
+        "route": "/careers",
+        "hydrated_dom_bytes": 699244,
+        "headings_rendered": 9,
+        "paragraphs_rendered": 118,
+        "has_fatal_error": false,
+        "exit_code": 0
+      },
+      {
+        "route": "/docs",
+        "hydrated_dom_bytes": 568244,
+        "headings_rendered": 3,
+        "paragraphs_rendered": 111,
+        "has_fatal_error": false,
+        "exit_code": 0
+      }
+    ],
+    "route_sample": [
+      {
+        "route": "/",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 1874986
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 1187177
+      },
+      {
+        "route": "/blog/building-ai-workflows-that-scale",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 732627
+      },
+      {
+        "route": "/blog/connecting-ai-to-real-products",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 732816
+      },
+      {
+        "route": "/blog/designing-ai-systems-not-just-features",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 733125
+      },
+      {
+        "route": "/blog/designing-ai-workflows-that-actually-work",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 733260
+      },
+      {
+        "route": "/blog/from-manual-tasks-to-intelligent-workflows",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 732802
+      },
+      {
+        "route": "/blog/from-prompt-to-product-making-ai-useful",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 733154
+      },
+      {
+        "route": "/blog/from-raw-data-to-actionable-results",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 732690
+      },
+      {
+        "route": "/blog/how-to-structure-inputs-for-better-outputs",
+        "status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "has_csp_header": true,
+        "bytes_received": 733142
+      }
+    ],
+    "verdict": "validated"
+  }
+}
