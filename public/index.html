@@ -607,7 +607,138 @@ document.addEventListener("submit",event=>{const form=event.target.closest?.('fo
 #__framer-editorbar.status_measuring {
     clip-path: unset;
 }
-</style></head>
+</style>
+<style id="c2d2-master-style">
+/* === C²&D² Master Production Styling === */
+
+/* 1. Global Viewport & Stability */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#main {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100%;
+  position: relative;
+}
+
+/* 2. REMOVE BLOGS COMPLETELY */
+section[data-framer-name="Blog Section"],
+div[data-framer-name="Blog Grid"],
+.framer-1p3cpw1,
+.framer-1bcfx1w,
+a[href="/blog"],
+.framer-o4jlvu-container a[href="/blog"],
+.framer-ohec4t-container,
+.framer-ouccog a[href="/blog"] {
+  display: none !important;
+}
+
+/* 3. SMOOTH INFINITE LOGO RUNNERS & TICKERS */
+@keyframes logoRunnerMarquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes logoRunnerMarqueeReverse {
+  0% { transform: translate3d(-50%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.framer-18wcocg, .framer-1exffiu {
+  overflow: hidden !important;
+  max-width: 100vw !important;
+  contain: layout paint;
+}
+
+.framer-18wcocg ul {
+  display: flex !important;
+  width: max-content !important;
+  animation: logoRunnerMarquee 26s linear infinite !important;
+  will-change: transform;
+}
+
+.framer-1exffiu ul {
+  display: flex !important;
+  width: max-content !important;
+  animation: logoRunnerMarqueeReverse 26s linear infinite !important;
+  will-change: transform;
+}
+
+.framer-18wcocg ul:hover,
+.framer-1exffiu ul:hover {
+  animation-play-state: paused;
+}
+
+/* 4. Top Navigation Bar Polish */
+nav[data-framer-name="Desktop"] {
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  z-index: 100 !important;
+}
+
+nav[data-framer-name="Desktop"] a {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-decoration: none !important;
+}
+
+nav[data-framer-name="Desktop"] a:hover {
+  opacity: 1 !important;
+  transform: translateY(-1px) !important;
+}
+
+/* 5. Key Value Section Layout Protection */
+.framer-bg86ng {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  flex-wrap: wrap !important;
+  gap: 1.5rem !important;
+}
+
+/* 6. Primary Button & Card Hover Interactions */
+.framer-18p3hgx {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease !important;
+  cursor: pointer !important;
+}
+
+.framer-18p3hgx:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(0, 85, 255, 0.18) !important;
+}
+
+.framer-18p3hgx:active {
+  transform: scale(0.97) !important;
+}
+
+[data-framer-name="Card"],
+[data-framer-name="Value Card"],
+[data-framer-name="How It Work Card"],
+.framer-143gqdu,
+.framer-1r9x8g0 {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease !important;
+}
+
+[data-framer-name="Card"]:hover,
+[data-framer-name="Value Card"]:hover,
+[data-framer-name="How It Work Card"]:hover,
+.framer-143gqdu:hover,
+.framer-1r9x8g0:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 12px 32px rgba(0, 85, 255, 0.08) !important;
+}
+</style>
+
+</head>
 <body>
 	
 	<!-- Start of bodyStart -->
