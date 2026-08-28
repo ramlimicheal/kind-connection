@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en" data-redirect-timezone="1" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services — C² & D² | Custom AI Systems & Quantitative Engineering</title>
+  <meta name="description" content="Explore C² & D² capabilities: Quantitative Trading Systems, Sovereign AI SaaS, Intelligent Multi-Agent Workflows, and UI/UX Product Engineering.">
+  
+  <link href="/_external/framerusercontent.com/images/VcwLcZpsTVmf8EFanSpsVbWG990.png" rel="icon" media="(prefers-color-scheme: light)">
+  <link href="/_external/framerusercontent.com/images/Gm7HCJGoHg1tzwtGoqCaN2IxNBk.png" rel="icon" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/_external/framerusercontent.com/images/XVgNNQwjeVDbzlNvEGTnZYurVKw.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Geist:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style id="c2d2-services-style">
+    /* === C² & D² Dedicated Services Page Styles === */
+    :root {
+      --bg-dark: #0A0A0B;
+      --bg-card-dark: #121214;
+      --bg-light: #FFFFFF;
+      --bg-light-subtle: #F6F6F7;
+      --border-subtle: #E2E2E5;
+      --border-dark: #222226;
+      --accent-blue: #0055FF;
+      --accent-blue-hover: #0044CC;
+      --text-primary: #111113;
+      --text-secondary: #66666E;
+      --text-muted: #8E8E93;
+      --text-white: #FFFFFF;
+      --text-white-dim: #A1A1AA;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Top Navigation Bar */
+    header.c2d2-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: center;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    .c2d2-nav-pill {
+      display: flex;
+      align-items: center;
+      background: rgba(18, 18, 20, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 4px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    .c2d2-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .c2d2-nav-item {
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-white-dim);
+      padding: 8px 14px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      letter-spacing: -0.02em;
+    }
+
+    .c2d2-nav-item:hover {
+      color: var(--text-white);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .c2d2-nav-item.active {
+      color: var(--text-white);
+      background: var(--accent-blue);
+    }
+
+    .c2d2-nav-contact {
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-primary);
+      background: #FFFFFF;
+      padding: 8px 14px;
+      border-radius: 4px;
+      margin-left: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .c2d2-nav-contact:hover {
+      background: #E5E5E5;
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .c2d2-services-hero {
+      position: relative;
+      padding: 160px 48px 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-bottom: 1px solid var(--border-dark);
+      background: 
+        radial-gradient(circle at 50% 30%, rgba(0, 85, 255, 0.15), transparent 70%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 100% 100%, 40px 40px, 40px 40px;
+    }
+
+    .c2d2-tag {
+      font-family: 'Geist Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-blue);
+      background: rgba(0, 85, 255, 0.1);
+      border: 1px solid rgba(0, 85, 255, 0.3);
+      padding: 4px 10px;
+      border-radius: 4px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .c2d2-hero-title {
+      font-size: clamp(38px, 6vw, 68px);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      max-width: 900px;
+      margin-bottom: 24px;
+    }
+
+    .c2d2-hero-title span.blue {
+      color: var(--accent-blue);
+    }
+
+    .c2d2-hero-sub {
+      font-size: clamp(16px, 2vw, 20px);
+      color: var(--text-white-dim);
+      max-width: 680px;
+      line-height: 1.5;
+      margin-bottom: 40px;
+      font-weight: 400;
+    }
+
+    .c2d2-btn-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .c2d2-btn-primary {
+      font-family: 'Geist Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--accent-blue);
+      color: #FFFFFF;
+      padding: 14px 28px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .c2d2-btn-primary:hover {
+      background: var(--accent-blue-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 85, 255, 0.3);
+    }
+
+    .c2d2-btn-secondary {
+      font-family: 'Geist Mono', monospace;
+      font-size: 13px;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-white);
+      padding: 14px 28px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: all 0.2s ease;
+    }
+
+    .c2d2-btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-2px);
+    }
+
+    /* Core Services Grid (Light Theme for high contrast readability) */
+    .c2d2-services-body {
+      background: var(--bg-light);
+      color: var(--text-primary);
+      padding: 100px 48px;
+    }
+
+    .c2d2-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .c2d2-sec-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 64px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .c2d2-sec-counter {
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    .c2d2-sec-title {
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    /* 4 Service Offerings */
+    .c2d2-services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+      gap: 32px;
+      margin-bottom: 96px;
+    }
+
+    @media (max-width: 640px) {
+      .c2d2-services-grid {
+        grid-template-columns: 1fr;
+      }
+      .c2d2-services-hero, .c2d2-services-body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    .c2d2-service-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .c2d2-service-card:hover {
+      border-color: var(--accent-blue);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(0, 85, 255, 0.08);
+    }
+
+    .c2d2-card-badge {
+      font-family: 'Geist Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-blue);
+      background: rgba(0, 85, 255, 0.08);
+      padding: 4px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+
+    .c2d2-card-title {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .c2d2-card-desc {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .c2d2-card-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 24px;
+      margin-bottom: 32px;
+    }
+
+    .c2d2-card-features li {
+      font-size: 14px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+
+    .c2d2-card-features li::before {
+      content: "✓";
+      color: var(--accent-blue);
+      font-weight: bold;
+      font-family: 'Geist Mono', monospace;
+    }
+
+    .c2d2-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .c2d2-card-timeline {
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .c2d2-card-link {
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-blue);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: transform 0.2s ease;
+    }
+
+    .c2d2-card-link:hover {
+      transform: translateX(4px);
+    }
+
+    /* 4-Sprint Process Section */
+    .c2d2-process-sec {
+      background: var(--bg-light-subtle);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 56px 40px;
+      margin-bottom: 96px;
+    }
+
+    .c2d2-process-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .c2d2-process-step {
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 24px;
+      position: relative;
+    }
+
+    .c2d2-step-num {
+      font-family: 'Geist Mono', monospace;
+      font-size: 11px;
+      color: var(--accent-blue);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .c2d2-step-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .c2d2-step-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* CTA Section */
+    .c2d2-cta-banner {
+      background: var(--bg-dark);
+      color: var(--text-white);
+      border-radius: 16px;
+      padding: 80px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--border-dark);
+    }
+
+    .c2d2-cta-title {
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .c2d2-cta-sub {
+      font-size: 16px;
+      color: var(--text-white-dim);
+      max-width: 600px;
+      margin: 0 auto 36px;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer.c2d2-footer {
+      background: var(--bg-dark);
+      border-top: 1px solid var(--border-dark);
+      padding: 60px 48px 40px;
+      color: var(--text-white-dim);
+      font-size: 13px;
+    }
+
+    .c2d2-footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .c2d2-footer-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 12px;
+    }
+
+    .c2d2-footer-links a:hover {
+      color: var(--text-white);
+    }
+
+    /* Suppression of rogue framer badge */
+    #__framer-badge-container, [id*="framer-badge"], .framer-badge, a[href*="framer.com"] {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="c2d2-header">
+    <nav class="c2d2-nav-pill">
+      <div class="c2d2-nav-links">
+        <a href="/" class="c2d2-nav-item">&lt;HOME&gt;</a>
+        <a href="/about" class="c2d2-nav-item">ABOUT</a>
+        <a href="/services" class="c2d2-nav-item active">SERVICES</a>
+        <a href="/docs" class="c2d2-nav-item">DOCS</a>
+        <a href="/pricing" class="c2d2-nav-item">PRICING</a>
+        <a href="/careers" class="c2d2-nav-item">CAREERS 4</a>
+      </div>
+      <a href="/contact" class="c2d2-nav-contact">↗ CONTACT US</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="c2d2-services-hero">
+    <div class="c2d2-tag">[N.01/04] // CAPABILITIES & ENGINEERING</div>
+    <h1 class="c2d2-hero-title">
+      Custom AI Systems.<br>
+      <span class="blue">Built for Production Scale.</span>
+    </h1>
+    <p class="c2d2-hero-sub">
+      From sub-10ms quantitative trading engines to sovereign enterprise AI SaaS and intelligent multi-agent swarms — engineered with zero vendor lock-in.
+    </p>
+    <div class="c2d2-btn-row">
+      <a href="/contact" class="c2d2-btn-primary">■ START YOUR BUILD</a>
+      <a href="/docs" class="c2d2-btn-secondary">VIEW ARCHITECTURE DOCS ↗</a>
+    </div>
+  </section>
+
+  <!-- Main Services Body -->
+  <main class="c2d2-services-body">
+    <div class="c2d2-container">
+      
+      <div class="c2d2-sec-head">
+        <div>
+          <div class="c2d2-sec-counter">[N.02/04] — CORE SPECIALIZATIONS</div>
+          <h2 class="c2d2-sec-title">Engineered to execute.<br>No templates. Pure code ownership.</h2>
+        </div>
+      </div>
+
+      <!-- 4 Core Service Cards -->
+      <div class="c2d2-services-grid">
+        
+        <!-- Service 01 -->
+        <div class="c2d2-service-card">
+          <div>
+            <div class="c2d2-card-badge">// 001 QUANT & ALGO</div>
+            <h3 class="c2d2-card-title">Quantitative & Trading Bot Engineering</h3>
+            <p class="c2d2-card-desc">
+              High-frequency trading bots, automated alpha strategy execution, real-time WebSocket order book processing, and custom risk-parity backtesting engines.
+            </p>
+            <ul class="c2d2-card-features">
+              <li>Exchange WebSockets (Binance, Bybit, Coinbase, IBKR)</li>
+              <li>TradingView Webhook execution pipelines</li>
+              <li>Sub-100ms algorithmic execution & trailing stop logic</li>
+              <li>Sovereign Dockerized deployment with Prometheus telemetry</li>
+            </ul>
+          </div>
+          <div class="c2d2-card-footer">
+            <span class="c2d2-card-timeline">Timeline: 2–4 Sprints</span>
+            <a href="/contact" class="c2d2-card-link">Discuss Bot Build ↗</a>
+          </div>
+        </div>
+
+        <!-- Service 02 -->
+        <div class="c2d2-service-card">
+          <div>
+            <div class="c2d2-card-badge">// 002 AI SAAS</div>
+            <h3 class="c2d2-card-title">Sovereign Enterprise AI SaaS Development</h3>
+            <p class="c2d2-card-desc">
+              Full-stack AI SaaS platforms from initial schema design to multi-tenant authentication, custom billing, vector embedding indexing, and private LLM inference.
+            </p>
+            <ul class="c2d2-card-features">
+              <li>Multi-model routing (GPT-4o, Claude 3.7, DeepSeek, Gemini)</li>
+              <li>Zero data leakage & self-hosted vector databases</li>
+              <li>Stripe / Lemonsqueezy subscription billing infrastructure</li>
+              <li>SOC2-ready role-based access control (RBAC)</li>
+            </ul>
+          </div>
+          <div class="c2d2-card-footer">
+            <span class="c2d2-card-timeline">Timeline: 4–6 Sprints</span>
+            <a href="/contact" class="c2d2-card-link">Build Your SaaS ↗</a>
+          </div>
+        </div>
+
+        <!-- Service 03 -->
+        <div class="c2d2-service-card">
+          <div>
+            <div class="c2d2-card-badge">// 003 AGENTIC WORKFLOWS</div>
+            <h3 class="c2d2-card-title">Intelligent Multi-Agent Swarms</h3>
+            <p class="c2d2-card-desc">
+              Autonomous agent orchestration pipelines designed to eliminate manual back-office tasks, complex document extraction, research synthesis, and workflow triggers.
+            </p>
+            <ul class="c2d2-card-features">
+              <li>Directed Acyclic Graph (DAG) multi-agent architectures</li>
+              <li>Dynamic document parsing (PDFs, spreadsheets, APIs)</li>
+              <li>Long-term memory graphs & counterfactual verification</li>
+              <li>Fail-safe human-in-the-loop escalation gates</li>
+            </ul>
+          </div>
+          <div class="c2d2-card-footer">
+            <span class="c2d2-card-timeline">Timeline: 2–3 Sprints</span>
+            <a href="/contact" class="c2d2-card-link">Automate Workflows ↗</a>
+          </div>
+        </div>
+
+        <!-- Service 04 -->
+        <div class="c2d2-service-card">
+          <div>
+            <div class="c2d2-card-badge">// 004 DESIGN & UI/UX</div>
+            <h3 class="c2d2-card-title">UI/UX Design Systems & Product Strategy</h3>
+            <p class="c2d2-card-desc">
+              World-class developer-tool aesthetics, dark-mode glass design tokens, responsive typography, and high-conversion product landing systems built for technical audiences.
+            </p>
+            <ul class="c2d2-card-features">
+              <li>Tailwind / React component design systems</li>
+              <li>Interactive data visualization & trading charts</li>
+              <li>Conversion-optimized onboarding flows</li>
+              <li>Micro-animations & 60fps GPU interactions</li>
+            </ul>
+          </div>
+          <div class="c2d2-card-footer">
+            <span class="c2d2-card-timeline">Timeline: 1–2 Sprints</span>
+            <a href="/contact" class="c2d2-card-link">Request Design Sprint ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4-Sprint Framework -->
+      <div class="c2d2-process-sec">
+        <div class="c2d2-sec-counter">[N.03/04] — HOW WE DELIVER</div>
+        <h3 style="font-size: 26px; font-weight: 700; color: var(--text-primary);">The 4-Sprint Engineering Framework</h3>
+        <p style="color: var(--text-secondary); margin-top: 8px; font-size: 15px;">
+          Predictable milestones, weekly deployable increments, and complete repository ownership.
+        </p>
+
+        <div class="c2d2-process-grid">
+          <div class="c2d2-process-step">
+            <div class="c2d2-step-num">SPRINT 01</div>
+            <div class="c2d2-step-title">Concept Ideation (C²)</div>
+            <div class="c2d2-step-desc">System architecture, data contracts, math models, and technical requirements mapping.</div>
+          </div>
+          <div class="c2d2-process-step">
+            <div class="c2d2-step-num">SPRINT 02</div>
+            <div class="c2d2-step-title">Product & UI Design (D²)</div>
+            <div class="c2d2-step-desc">Interactive prototypes, design tokens, telemetry dashboard layouts, and UX flows.</div>
+          </div>
+          <div class="c2d2-process-step">
+            <div class="c2d2-step-num">SPRINT 03</div>
+            <div class="c2d2-step-title">Engineering & Bot Logic</div>
+            <div class="c2d2-step-desc">Full-stack coding, API endpoints, WebSocket listeners, agent tool-calling, and database schemas.</div>
+          </div>
+          <div class="c2d2-process-step">
+            <div class="c2d2-step-num">SPRINT 04</div>
+            <div class="c2d2-step-title">Deploy, Test & Scale</div>
+            <div class="c2d2-step-desc">Rigorous stress testing, live telemetry, sovereign cloud rollout, and handoff.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Banner -->
+      <div class="c2d2-cta-banner">
+        <h2 class="c2d2-cta-title">Ready to build your next AI system?</h2>
+        <p class="c2d2-cta-sub">
+          Book a technical sprint with our engineering team to review your architecture and roadmap your build.
+        </p>
+        <div class="c2d2-btn-row">
+          <a href="/contact" class="c2d2-btn-primary">■ SCHEDULE DISCOVERY CALL</a>
+          <a href="/pricing" class="c2d2-btn-secondary">VIEW PRICING TIERS ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="c2d2-footer">
+    <div class="c2d2-footer-inner">
+      <div>
+        <span style="font-family: 'Geist Mono', monospace; font-weight: 600; color: #FFFFFF;">C² & D²</span>
+        <span style="margin-left: 12px; color: var(--text-muted);">© 2026 C²&D² Systems Inc. Sovereign Intelligence.</span>
+      </div>
+      <div class="c2d2-footer-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/services">Services</a>
+        <a href="/docs">Docs</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/careers">Careers</a>
+        <a href="/privacy-policy">Privacy</a>
+        <a href="/terms-of-service">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
