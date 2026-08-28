@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { serveStaticPage } from "@/lib/static-site";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export const Route = createFileRoute("/$")({
   server: {
@@ -11,30 +11,39 @@ export const Route = createFileRoute("/$")({
   component: StaticPageComponent,
 });
 
+/**
+ * Client-side fallback for every non-root route (splat catch-all).
+ *
+ * On a normal first request the server GET handler returns the complete static
+ * HTML page directly — the browser renders it as a plain document and this
+ * React component never mounts.
+ *
+ * This component only executes during client-side SPA navigation (e.g. if
+ * TanStack Router intercepts an <a> click). In that case we force a full page
+ * reload so the server handler serves the real static HTML with all Framer
+ * scripts intact.  No document.write() — that kills ES-module execution.
+ */
 function StaticPageComponent() {
-  const [html, setHtml] = useState<string>("");
-  const pathname = typeof window !== "undefined" ? window.location.pathname : "";
-
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const target = pathname.endsWith("/") ? `${pathname}index.html` : `${pathname}/index.html`;
-    fetch(target)
-      .then((res) => {
-        if (!res.ok) return fetch(pathname);
-        return res;
-      })
-      .then((res) => res.text())
-      .then((content) => {
-        if (content.includes("<!DOCTYPE html>") || content.includes("<html")) {
-          document.open();
-          document.write(content);
-          document.close();
-        } else {
-          setHtml(content);
-        }
-      })
-      .catch(console.error);
-  }, [pathname]);
+    if (typeof window !== "undefined") {
+      window.location.reload();
+    }
+  }, []);
 
-  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+  // Brief loading state visible only during the instant before reload fires
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "100vh",
+        background: "#000",
+        color: "#fff",
+        fontFamily: "system-ui, sans-serif",
+      }}
+    >
+      Loading…
+    </div>
+  );
 }

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { serveStaticPage } from "@/lib/static-site";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export const Route = createFileRoute("/")({
   server: {
@@ -11,24 +11,39 @@ export const Route = createFileRoute("/")({
   component: IndexStaticComponent,
 });
 
+/**
+ * Client-side fallback for the "/" route.
+ *
+ * On a normal first request the server GET handler returns the complete static
+ * HTML page directly — the browser renders it as a plain document and this
+ * React component never mounts.
+ *
+ * This component only executes during client-side SPA navigation (e.g. if
+ * TanStack Router intercepts an <a> click). In that case we force a full page
+ * reload so the server handler serves the real static HTML with all Framer
+ * scripts intact.  No document.write() — that kills ES-module execution.
+ */
 function IndexStaticComponent() {
-  const [html, setHtml] = useState<string>("");
-
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    fetch("/index.html")
-      .then((res) => res.text())
-      .then((content) => {
-        if (content.includes("<!DOCTYPE html>") || content.includes("<html")) {
-          document.open();
-          document.write(content);
-          document.close();
-        } else {
-          setHtml(content);
-        }
-      })
-      .catch(console.error);
+    if (typeof window !== "undefined") {
+      window.location.reload();
+    }
   }, []);
 
-  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+  // Brief loading state visible only during the instant before reload fires
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "100vh",
+        background: "#000",
+        color: "#fff",
+        fontFamily: "system-ui, sans-serif",
+      }}
+    >
+      Loading…
+    </div>
+  );
 }
