@@ -623,6 +623,34 @@ html, body {
   visibility: visible !important;
 }
 </style>
+
+<style id="c2d2-clean-nav-style">
+/* Clean Navigation, Footer & Badge Suppression */
+#__framer-badge-container,
+[id*="framer-badge"],
+.framer-badge,
+[data-framer-badge],
+div[data-framer-name="Made in Framer"],
+a[href*="framer.com"],
+a[href="/blog"],
+a[href="/careers"],
+.framer-ouccog:has(a[href="/blog"]),
+.framer-ouccog:has(a[href="/careers"]),
+.framer-o4jlvu-container:has(a[href="/blog"]),
+.framer-o4jlvu-container:has(a[href="/careers"]),
+div[data-framer-name="Desktop"] div:has(> a[href="/blog"]),
+div[data-framer-name="Desktop"] div:has(> a[href="/careers"]),
+.framer-1s0izr4:has(a[href="/blog"]),
+.framer-3ozu7f:has(a[href="/blog"]),
+.framer-1s0izr4:has(a[href="/careers"]),
+.framer-3ozu7f:has(a[href="/careers"]) {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+</style>
+
 </head>
 <body>
 	
